@@ -6,12 +6,12 @@ let string = `
 *首先准备一个div
 */
 #div1{
-    width:400px;
-    height:400px;
+    width:200px;
+    height:200px;
     position:fixed;
     right:0;
     top:0;
-    transform:translate(-100%)
+    transform:translate(-50%)
 }
 /*接下来把div变成一个八卦
 *先把div变成一个圆
@@ -33,8 +33,8 @@ let string = `
     display:black;
     // border:1px solid red;
     position:absolute;
-    width:200px;
-    height:200px;
+    width:100px;
+    height:100px;
     left:25%;
     top:0;
     border-radius:50%;
@@ -47,8 +47,8 @@ let string = `
     display:black;
     // border:1px solid red;
     position:absolute;
-    width:200px;
-    height:200px;
+    width:100px;
+    height:100px;
     left:25%;
     bottom:0;
     border-radius:50%;
